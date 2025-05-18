@@ -238,13 +238,13 @@ export const NavbarLogo = () => {
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
       <Image
-        src="/assets/image 1.svg"
+        src="/assets/logo.png"
         alt="حصاد لتصدير اجود انواع الحاصلات الزراعيه "
-        width={30}
-        height={30} 
+        width={70}
+        height={70} 
         priority
       />
-      <span className="font-medium text-black dark:text-white">Hasaad</span>
+      {/* <span className="font-medium text-black dark:text-white">Hasaad</span> */}
     </Link>
   );
 };
